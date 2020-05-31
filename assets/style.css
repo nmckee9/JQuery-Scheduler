@@ -1,0 +1,32 @@
+.jumbotron {
+    text-align: center;
+    background-color:#cac3ba;
+    color: #434b3c;
+    padding: 10%;
+}
+
+.divcontainer {
+    margin-bottom: 100px;
+}
+
+.list-group {
+    text-align: center;
+}
+
+.input-group {
+width: 80%;
+text-align: center;
+margin-left: 120px;
+}
+
+.pastTimeblock {
+    background-color: #cac3ba ;
+}
+
+.presentTimeblock {
+    background-color: #b9573c;
+}
+
+.futureTimeblock {
+    background-color: #2c4b3b;
+}

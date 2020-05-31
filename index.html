@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/style.css">
+        
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1 class="display-4">Work Day Scheduler</h1>
+            <p class="lead">Let's Stay Organized and Schedule Some Crap</p>
+            <hr class="my-4">
+            <p id="displayMoment"></p>
+        </div>
+    <div class="divcontainer">
+        <div class="row">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary disabled" type="button" id="8timeBlock">8AM</button>
+                </div>
+                    <input type="text" class="form-control inputData" id="8amInput" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-info doneButton" type="button">Done!</button>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary disabled" type="button" id="9timeBlock">9AM</button>
+                </div>
+                    <input type="text" class="form-control inputData" id="9amBlock" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-info doneButton" type="button">Done!</button>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary disabled" type="button" id="10timeBlock">10AM</button>
+                </div>
+                    <input type="text" class="form-control inputData" id="10amInput" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-info doneButton" type="button">Done!</button>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary disabled" type="button" id="11timeBlock">11AM</button>
+                </div>
+                    <input type="text" class="form-control inputData" id="11amInput" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-info doneButton" type="button">Done!</button>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary disabled" type="button" id="12timeBlock">12PM</button>
+                </div>
+                    <input type="text" class="form-control inputData" id="12pmInput" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-info doneButton" type="button">Done!</button>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary disabled" type="button" id="1timeBlock">1PM</button>
+                </div>
+                    <input type="text" class="form-control inputData" id="1pmInput" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-info doneButton" type="button">Done!</button>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary disabled" type="button" id="2timeBlock">2PM</button>
+                </div>
+                    <input type="text" class="form-control inputData" id="2pmInput" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-info doneButton" type="button" id="button-addon1">Done!</button>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary disabled" type="button" id="3timeBlock">3PM</button>
+                </div>
+                    <input type="text" class="form-control inputData" id="3pmInput" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-info doneButton" type="button">Done!</button>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary disabled" type="button" id="4timeBlock">4PM</button>
+                </div>
+                    <input type="text" class="form-control inputData" id="4pmInput" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-info doneButton" type="button">Done!</button>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary disabled" type="button" id="5timeBlock">5PM</button>
+                </div>
+                    <input type="text" class="form-control inputData" id="5pmInput" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-info doneButton" type="button">Done!</button>
+                </div>
+            </div>
+        </div>
+    </div>         
+          
+          
+
+
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="assets/lib/moment/moment.js"></script>
+        <script src="assets/script.js"></script>
+    </body>
+</html>
