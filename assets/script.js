@@ -26,9 +26,7 @@ function setPlanner () {
     
 
     setPlanner ();
-})
-
-}
+};
 
 function storeInputs () {
     localStorage.setItem("input", JSON.stringify(StoredInput));
@@ -39,23 +37,5 @@ function storeInputs () {
     // alert("I've been clicked!");
 
     var eventText = storedInput.value
-}
-
-//make input go away on click 
-
-//Link Moment to inputblocks for past, present, future event
-//how do I compare moment to time block string?
-//var Event = moment () 
-// var pastEvent = moment > timeblock time 
-// var presentEvent = moment = timeblock time 
-// var futureEvent =  moment < timeblock time
-
-//if statements
-
-//apply class based on past, present, future
-
-
-
-// function setPlanner () {
-
-// 
+})
+};
